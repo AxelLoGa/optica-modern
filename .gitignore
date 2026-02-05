@@ -1,0 +1,27 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node
+node_modules/
+dist/
+www/
+coverage/
+.env
+.env.*
+
+# Logs
+*.log
+
+# Build outputs
+android/
+ios/
+platforms/
+
+# Delphi legacy junk 
+*.dcu
+*.~*
+*.ddp
+*.local
