@@ -4,23 +4,30 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Node
+# Node / Angular / Ionic
 node_modules/
 dist/
 www/
 coverage/
-.env
-.env.*
-
-# Logs
+.angular/
+.tmp/
 *.log
 
-# Build outputs
+# Env
+.env
+.env.*
+*.local
+
+# Capacitor / Cordova
 android/
 ios/
 platforms/
+plugins/
 
-# Delphi legacy junk 
+# Build artifacts
+*.map
+
+# Delphi/legacy basura si alguien mete el proyecto viejo
 *.dcu
 *.~*
 *.ddp
